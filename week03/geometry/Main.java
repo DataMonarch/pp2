@@ -46,7 +46,9 @@ public class Main {
           System.out.println("Are Segment 1 and Segment 2 equal? " + s1.equals(s2));
           System.out.println("Slope of Segment 1: " + s1.getSlope());
           System.out.println("Intercept of Segment 1: " + s1.getIntercept());
+          
           Point p3 = new Point(2.0f, 3.0f);
+          
           System.out.println("Is Point 3 on the line of Segment 1? " + s1.isOnLine(p3));
           System.out.println("Is Point 3 on Segment 1? " + s1.isOnSegment(p3));
     }

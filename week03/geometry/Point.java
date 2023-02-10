@@ -7,6 +7,8 @@ public class Point {
 
     public Point(){
         // default constructor
+        this.x = 0;
+        this.y = 0;
     }
 
     public Point(float x, float y){
