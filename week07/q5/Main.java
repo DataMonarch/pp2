@@ -1,11 +1,11 @@
 import java.util.Arrays;
 import java.util.List;
 
-class InvalidRolesArgumentException extends Exception {
-    public InvalidRolesArgumentException(String message) {
-        super(message);
-    }
-}
+// class InvalidRolesArgumentException extends Exception {
+//     public InvalidRolesArgumentException(String message) {
+//         super(message);
+//     }
+// }
 
 // class InvalidUsernameException extends Exception {
 //     public InvalidUsernameException(String message) {
