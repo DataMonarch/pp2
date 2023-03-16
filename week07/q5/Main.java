@@ -86,7 +86,7 @@ public class Main {
 
 
     public static void createUser(String username, String password, List<String> roles) 
-    throws InvalidUsernameException, InvalidPasswordException {
+    throws InvalidUsernameException, InvalidPasswordException    {
         if (username == null || username.length() < 3)
             throw new InvalidUsernameException("Username cannot contain less than three symbols");
 
